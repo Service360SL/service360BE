@@ -1,0 +1,49 @@
+server:
+  error:
+    include-message: always
+    include-binding-errors: always
+
+spring:
+  datasource:
+    url: jdbc:postgresql://ec2-34-228-248-175.compute-1.amazonaws.com:5432/d2qmiep6n51t0q
+
+    username: tfiodbmthctubs
+    password: f94ae5d6c081d045606af82e5c2b537bc5706bb0862f8886bde7b63e523ceb74
+    driver-class-name: org.postgresql.Driver
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+    open-in-view: false
+    properties:
+      hibernate:
+        format_sql: true
+    database: postgresql
+    database-platform: org.hibernate.dialect.PostgreSQLDialect
+
+#  mail:
+#    host: smtp.gmail.com
+#    port: 587
+#    username: service.360.50@gmail.com
+#    password: jgarjwrndtbgwxna
+#
+#    properties:
+#      mail:
+#        smtp:
+#          ssl:
+#            trust: "*"
+#          auth: true
+#          starttls:
+#            enable: true
+#          connectiontimeout: 5000
+#          timeout: 3000
+#          writetimeout: 5000
+
+
+
+
+
+
+
+
